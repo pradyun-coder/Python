@@ -10,6 +10,8 @@ else:
     mincount = int(number6)
     
 while maxcount%mincount != 0:
-    maxcount = maxcount + mincount
+    maxcount = maxcount + 1
+    if maxcoun%mincount = 0:
+        break
 
 print(maxcount)
