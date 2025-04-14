@@ -11,7 +11,7 @@ else:
     
 while maxcount%mincount != 0:
     maxcount = maxcount + 1
-    if maxcoun%mincount = 0:
+    if maxcount%mincount == 0:
         break
 
 print(maxcount)
