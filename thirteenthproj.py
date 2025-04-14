@@ -14,4 +14,4 @@ while maxcount%mincount != 0:
     if maxcount%mincount == 0:
         break
 
-print(maxcount)
+print(maxcount + 1)
