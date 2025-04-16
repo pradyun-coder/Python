@@ -1,0 +1,16 @@
+#binary conversion
+binary = input("Enter a binary number")
+binaryarray = []
+sum = 0
+for i in binary:
+    if i == '0' or i == '1':
+        binaryarray.append(i)
+sum = 0
+count = 0
+print(binaryarray)
+for i in binaryarray:
+    number = binaryarray[count]
+    a = int(number)*2
+    sum = sum + a**count
+    count = count + 1
+print(sum)
