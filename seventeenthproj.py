@@ -1,5 +1,5 @@
 def seive(num):
-    primes = [True for i  in range(10, num +1)]
+    primes = [True for i  in range(num +1)]
     p = 2
     while p*p <= num:
         if primes[p] == True:
@@ -8,6 +8,7 @@ def seive(num):
         p += 1
     for p in range(2, num +1):
         if primes[p]:
-            print(p)
+            if p>10:
+                print(p)
 a = 100
-seive(a)
+print(seive(a))
